@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Education | Arhan's Resume</title>
-    <link rel="stylesheet" href="../index.css" type="text/css">
+    <title>Projects | Arhan's Resume</title>
+    <link rel="stylesheet" href="../lib/calculator.css" type="text/css">
 </head>
 <body>
 <div id="edge-wrapper">
@@ -23,20 +23,25 @@
             </ul>
         </nav>
         <main>
-            <h2>Education</h2>
-            <h3>Boston University | Boston, MA</h3>
-            <p><strong>Dual Degree:</strong>
-                (B.A) Computer Science and
-                (B.S) Business Administration (Concentrating in Finance)
-            </p>
-            <p><em>Expected Graduation:</em> May 2026</p>
-            <ul>
-                <li>Relevant Coursework: Data Structures, Intro to AI, Web Development,
-                    Machine Learning for Business Outcomes, Probability in Computing
-                </li>
-                <li>Dean’s List (Fall 2024 and Spring 2025)</li>
-                <li>Clubs: Hack4Impact@BU, Fintech BU</li>
-            </ul>
+            <h2>Projects</h2>
+            <div class="calculator">
+                <h2>Calculator</h2>
+
+                <input type="text" id="num1" placeholder="0"><br>
+                <input type="text" id="num2" placeholder="0">
+
+                <div class="calc-buttons">
+                    <button onclick="add()">+</button>
+                    <button onclick="subtract()">-</button>
+                    <button onclick="multiply()">*</button>
+                    <button onclick="divide()">/</button>
+                    <button onclick="power()">^</button>
+                </div>
+
+                <div id="result">0</div>
+
+                <button class="clear-btn" onclick="clearCalc()">clear</button>
+            </div>
         </main>
     </div>
     <footer>
