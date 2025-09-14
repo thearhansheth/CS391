@@ -27,15 +27,15 @@
             <div class="calculator">
                 <h2>Calculator</h2>
 
-                <input type="text" id="num1" placeholder="0"><br>
-                <input type="text" id="num2" placeholder="0">
+                <label for="num1">Enter Number 1:</label><input type="text" id="num1" placeholder="0"><br>
+                <label for="num2">Enter Number 2:</label><input type="text" id="num2" placeholder="0">
 
                 <div class="calc-buttons">
-                    <button onclick="add()">+</button>
-                    <button onclick="subtract()">-</button>
-                    <button onclick="multiply()">*</button>
-                    <button onclick="divide()">/</button>
-                    <button onclick="power()">^</button>
+                    <button onclick="doAdd()">+</button>
+                    <button onclick="doSubtract()">-</button>
+                    <button onclick="doMultiply()">*</button>
+                    <button onclick="doDivide()">/</button>
+                    <button onclick="doPower()">^</button>
                 </div>
 
                 <div id="result">0</div>
@@ -45,8 +45,9 @@
         </main>
     </div>
     <footer>
-        <p>All rights reserved by Arhan Sheth <a href="../index.html">Credits</a>&#169</p>
+        <p>All rights reserved by Arhan Sheth <a href="references.html">Credits</a>&#169</p>
     </footer>
 </div>
+<script src="../lib/calculator.js"></script>
 </body>
 </html>
