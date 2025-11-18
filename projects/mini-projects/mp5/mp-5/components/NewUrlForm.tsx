@@ -34,7 +34,7 @@ export default function NewUrlForm({ append }: { append: (url: UrlEntry) => void
             />
 
             <div className="flex items-center gap-2">
-                <span className="text-sm text-gray-500">https://cs391-mp5/</span>
+                <span className="text-sm text-gray-500">https://cs-391-mp5.vercel.app/</span>
                 <input
                     className="flex-1 border border-gray-300 text-black rounded px-3 py-2 placeholder:text-gray-200"
                     placeholder="your-custom-alias"

@@ -10,7 +10,7 @@ export default function ShortenedUrlDisplay({ url }: { url: UrlEntry }) {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                {`http://cs391-mp5/${url.alias}`}
+                {`http://cs-391-mp5.vercel.app/${url.alias}`}
             </a>
         </div>
     );
